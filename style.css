@@ -1,0 +1,359 @@
+#head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly; 
+}
+.main1{
+    margin: 10px;   
+}
+.col{
+    display: flex;
+    border: 2px solid black;
+    width: 250px;
+    justify-content: space-evenly; 
+    align-content: space-evenly; 
+    flex-wrap: wrap;
+    height: 200px;   
+}
+.f2{
+    display: flex;
+   
+}
+
+.row{
+    border: 2px solid black;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.box1{
+    width: 50px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.box2{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.box3{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.con{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.item1{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.item2{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+
+}
+.item3{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    padding: 10px;
+    
+
+}
+.item4{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+
+
+}
+.b1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 9px;
+}
+.b2{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 9px;
+}
+.b3{
+    width: 50px;
+    height: 80px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 9px;
+}
+.b4{
+    height: 180px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 9px;
+}
+.contant{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    align-content: space-around;
+    
+  
+}
+.js{
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid red;
+    flex-wrap: wrap; 
+    margin: 10px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-right: 0px;
+
+
+}  
+.al{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin: 10px;
+    justify-content: space-around;
+    align-content: space-around;
+    border-left: 3px solid red;
+    margin-left:0px ;
+
+}
+.text{
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.c,.c2,.c3{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.js1{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin: 4px;
+}
+.js2{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+   
+
+
+}
+.js3{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    margin: 4px;
+    
+
+}
+.js4{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    
+
+}
+.js5{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 4px;
+   
+}
+.js6{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4px;
+   
+
+}
+.c1{
+    height: 180px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 9px;
+    margin: 2px;
+}
+.a1{
+    width: 60px;
+    height: 90px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.a2{
+    width: 80px;
+    height: 90px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.al1{
+    width: 50px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+}
+.al2{
+    width: 80px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 9px;
+
+}
+.cl1{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    padding: 10px;
+    margin: 4px;
+}
+.cl2{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+    margin: 4px;
+    justify-content: center;
+}
+.cl3{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    padding: 10px;
+    margin: 4px;
+   justify-content: end;
+}
+.cl4{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    padding: 10px;
+    margin: 4px;
+    justify-content: stretch;
+}
+.cl5{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+    margin: 4px;
+    justify-content: space-between;
+
+}
+.cl6{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 10px;
+    margin: 4px;
+    justify-content: space-around;
+}
+.r{
+    display: flex;
+}
+.r1{
+ display: flex;  
+}
